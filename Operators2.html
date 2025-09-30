@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+</head>
+<body>
+    <h1>Operators</h1>
+    <div id="res1"></div>
+    <div id="res2"></div>
+    <div id="res3"></div>
+    <div id="res4"></div>
+    <div id="res5"></div>
+    <div id="res6"></div>
+    <div id="res7"></div>
+</body>
+<script>
+    let sum =10 +5;
+    console.log(sum);
+
+    let x = 4;
+    let y = 5;
+    document.getElementById("res1").innerHTML=x+y;
+    document.getElementById("res2").innerHTML=4+15;
+    
+    x=x++;
+    document.getElementById("res3").innerHTML=x+y;
+
+    x=x+6;
+    document.getElementById("res4").innerHTML=x+y;
+
+    x--
+    document.getElementById("res5").innerHTML=x-y;
+
+    let product = 10*5;
+    console.log(product);
+
+    document.getElementById("res6").innerHTML=x+y*2;
+    document.getElementById("res7").innerHTML=(x+y)*2;
+
+    let quot = 10/5;
+    console.log(quot);
+
+    let remainder = 10%3;
+    console.log(remainder);
+
+    let power = 10**3;
+    console.log(power);
+
+    console.log(x==y);
+    console.log(x===y);
+    console.log(x!=y);
+    console.log(x!==y);
+    console.log(x<y);
+    console.log(x>y);
+    console.log(x>=y);
+    console.log(x<=y);
+
+    console.log(x&&y);
+    console.log(x||y);
+    console.log(!x);
+
+    console.log(x&y);
+    console.log(x|y);
+    console.log(~x);
+    console.log(x^y);
+    console.log(x<<1);
+    console.log(x>>1);
+
+    let result =(5>10)? 'greater' : 'smaller';
+    console.log(result);
+
+    let date = new Date();
+    console.log(date);
+</script>
+</html>
